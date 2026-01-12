@@ -44,9 +44,10 @@ npm run test -- tests/gameEngine.test.js
 ```
 
 ### Lint & Format
+**Note**: Lint and format scripts are not currently configured in package.json.
 ```bash
-npm run lint       # ESLint check
-npm run format     # Prettier format (if configured)
+# npm run lint       # Not configured
+# npm run format     # Not configured
 ```
 
 ### Build Check
@@ -214,8 +215,8 @@ npm run build        # Production build
 npm run preview      # Preview production build
 
 # Maintenance
-npm run lint         # Check code style
-npm run format       # Format code
+# npm run lint       # Not configured
+# npm run format     # Not configured
 npm update           # Update dependencies
 ```
 
